@@ -1,0 +1,24 @@
+{
+	"name": "SPL-Ubuntu",
+	"build": {
+	  "dockerfile": "Dockerfile"
+	},
+	"extensions": [
+	  "ms-vscode.cpptools-extension-pack",
+	  "vscode-icons-team.vscode-icons",
+	  "2gua.rainbow-brackets",
+	  "vscjava.vscode-java-pack",
+	  "jeff-hykin.better-cpp-syntax", 
+	  "ms-vscode.makefile-tools",
+	  "ms-python.python",
+	  "natqe.reload",
+	  "cschlosser.doxdocgen",
+	  "ms-vsliveshare.vsliveshare"
+	],
+	"runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"]
+	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
+	// "forwardPorts": [],
+	// "postCreateCommand": "gcc -v",
+	// "customizations": {},
+	// "remoteUser": "root"
+}

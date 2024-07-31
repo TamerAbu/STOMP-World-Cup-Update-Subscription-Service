@@ -1,0 +1,10 @@
+login 127.0.0.1:7777 peleg chi
+login 127.0.0.1:7777 tamer abu
+join Germany_Japan
+report /workspaces/STOMP-server-client/client/data/events1.json
+summary Germany_Japan tamer finalReportForGermany_Japan
+
+exit Germany_Japan
+
+cd client
+./bin/StompWCIClient 127.0.0.1 7777
